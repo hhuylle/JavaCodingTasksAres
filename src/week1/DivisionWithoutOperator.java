@@ -42,18 +42,13 @@ public class DivisionWithoutOperator {
 
     public static void divisionWithoutOperator(int dividend, int divisor) {
         int result = 0;
-        int reminder = dividend % divisor;
-
-        if (divisor == 0) {
-            throw new RuntimeException();
-        } else {
+        int remainder = dividend % divisor;
 
             while (dividend >= divisor) {
                 dividend -= divisor;
                 result++;
             }
-            System.out.println(result + " with reminder " + reminder);
+            System.out.println(result + " with reminder " + remainder);
 
         }
     }
-}
