@@ -11,4 +11,21 @@ public class OddOrEven {
      */
 
     // Solution below
+    public static void main(String[] args) {
+        int num1 = 4;
+        int num2 =9;
+
+        System.out.println(evenOrOdd(num1));
+        System.out.println(evenOrOdd(num2));
+
+
+
+    }
+    public static String evenOrOdd(int num){
+
+       if(num % 2==0){
+           return "Even";
+       }
+        return "Odd";
+    }
 }
