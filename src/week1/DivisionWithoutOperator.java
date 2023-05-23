@@ -34,8 +34,6 @@ public class DivisionWithoutOperator {
 
             divisionWithoutOperator(divindend, divisor);
         }
-
-
         input.close();
     }
 
