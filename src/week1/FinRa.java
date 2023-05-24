@@ -1,5 +1,7 @@
 package week1;
 
+
+
 public class FinRa {
 
     /*
@@ -11,4 +13,34 @@ public class FinRa {
      */
 
     // Solution below
+
+    public static void finra(){
+       /* for (int i =1 ; i<= 30 ; i++){
+            if(i %3==0 && i % 5==0){
+                System.out.println("FINRA");
+            }else if (i % 5==0){
+                System.out.println("RA");
+            }else if (i%3==0){
+                System.out.println("FIN");
+            }else{
+                System.out.println(i);
+            }
+        }
+        */
+
+
+
+    }
+
+    public static void main(String[] args) {
+       // finra();
+        finra2();
+    }
+
+    public static void finra2() {
+        for (int i = 1; i <= 30; i++) {
+            System.out.println((i%5 == 0 && i % 3==0)?"FINRA":(i % 5 == 0) ? "RA" : (i % 3 == 0) ? "FIN" : i);
+
+
+        }}
 }
