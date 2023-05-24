@@ -1,5 +1,7 @@
 package week1;
 
+import java.util.Arrays;
+
 public class OddOrEven {
 
     /*
@@ -11,4 +13,25 @@ public class OddOrEven {
      */
 
     // Solution below
+
+    public static void main(String[] args) {
+        isOddOrEven(-1);
+    }
+
+    public static int isOddOrEven(int number) {
+
+        int status = -1;
+
+        if (number % 2 == 0) {
+            status = 0;
+            System.out.println("Even");
+        } else {
+            status = 1;
+            System.out.println("Odd");
+        }
+
+        return status;
+    }
+
+
 }
