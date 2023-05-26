@@ -16,19 +16,5 @@ public class OddOrEven {
 
     // Solution below
 
-    public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your number: ");
-        oddOrEven(input.nextInt());
-        input.close();
-    }
-    public static void oddOrEven(int num){
-        if (num % 2 == 0) {
-            System.out.println("Your number " + num + " is even");
-        } else {
-            System.out.println("Your number "+ num+" is odd");
-
-        }
-    }
 }

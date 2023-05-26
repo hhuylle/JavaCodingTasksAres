@@ -14,26 +14,5 @@ public class FinRa {
 
     // Solution below
 
-    public  static void finra(int num){
-        if (num>=1 && num<=30){
-            if (num%3==0 && num%5==0){
-                System.out.println("FINRA");
-            }else if( num%3==0){
-                System.out.println("FIN");
-            }else{
-                System.out.println("RA");
-            }
-        }else{
-            System.err.println("Invalid number");
-        }
 
-    }
-
-    public static void main(String[] args) {
-
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your number: ");
-        finra(input.nextInt());
-        input.close();
-    }
 }
