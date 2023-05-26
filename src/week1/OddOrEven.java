@@ -1,6 +1,10 @@
 package week1;
 
+
+import java.util.Scanner;
+
 public class OddOrEven {
+
 
     /*
     Numbers -- odd & even
@@ -11,4 +15,6 @@ public class OddOrEven {
      */
 
     // Solution below
+
+
 }

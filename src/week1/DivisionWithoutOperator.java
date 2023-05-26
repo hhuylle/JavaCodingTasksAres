@@ -1,5 +1,8 @@
 package week1;
 
+
+import java.util.Scanner;
+
 public class DivisionWithoutOperator {
     /*
     Numbers -- Divide without / operator
@@ -9,8 +12,4 @@ public class DivisionWithoutOperator {
     // Solution Below
 
 
-
-
-
-
-}
+    }
