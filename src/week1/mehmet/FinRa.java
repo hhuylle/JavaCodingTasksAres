@@ -1,4 +1,4 @@
-package week1;
+package week1.mehmet;
 
 public class FinRa {
 
