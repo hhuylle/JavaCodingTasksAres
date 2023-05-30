@@ -9,14 +9,15 @@ public class DivideWithoutOperator {
 
     // Solution Below
 
-    public static void divisionWithoutOperator(int x, int y){
+    public static void divisionWithoutOperator(int x, int y) {
 
         int result = 0;
 
-        while(x > 0 && x >= y){
+        while (x > 0 && x >= y) {
             x -= y;
             result++;
         }
 
         System.out.println(result);
+    }
 }
