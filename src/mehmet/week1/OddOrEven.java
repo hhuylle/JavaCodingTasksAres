@@ -1,4 +1,4 @@
-package week1.mehmet;
+package mehmet.week1;
 
 import java.util.Arrays;
 
