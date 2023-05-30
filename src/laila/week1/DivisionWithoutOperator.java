@@ -1,6 +1,4 @@
-package week1;
-
-import javax.print.attribute.standard.PresentationDirection;
+package laila.week1;
 
 public class DivisionWithoutOperator {
     /*

@@ -1,4 +1,4 @@
-package week1;
+package laila.week1;
 
 
 
@@ -34,11 +34,12 @@ public class FinRa {
 
     public static void main(String[] args) {
        // finra();
-        finra2();
+        int[] array1 = {12,23,43,45,4,5,3};
+        finra2(array1);
     }
 
-    public static void finra2() {
-        for (int i = 1; i <= 30; i++) {
+    public static void finra2(int [] array) {
+        for (int i = 1; i < array.length; i++) {
             System.out.println((i%5 == 0 && i % 3==0)?"FINRA":(i % 5 == 0) ? "RA" : (i % 3 == 0) ? "FIN" : i);
 
 

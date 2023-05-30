@@ -1,4 +1,6 @@
-package week1;
+package laila.week1;
+
+import java.util.Scanner;
 
 public class OddOrEven {
 
@@ -14,10 +16,15 @@ public class OddOrEven {
     public static void main(String[] args) {
         int num1 = 4;
         int num2 =9;
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter number");
+        int num = input.nextInt();
+
+        // also can put the : System.out.println(input.nextInt());
 
         System.out.println(evenOrOdd(num1));
         System.out.println(evenOrOdd(num2));
-
+        System.out.println(evenOrOdd(num));
 
 
     }
