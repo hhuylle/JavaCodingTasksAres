@@ -1,4 +1,6 @@
-package week1;
+package Nataliia.week1;
+
+import java.util.Scanner;
 
 public class FinRa {
 
@@ -11,6 +13,7 @@ public class FinRa {
      */
 
     // Solution below
+
         public static void main(String[] args) {
 
             for (int num = 1; num <=30; num++) {
@@ -30,4 +33,8 @@ public class FinRa {
         }
 
     }
+
+
+
+
 

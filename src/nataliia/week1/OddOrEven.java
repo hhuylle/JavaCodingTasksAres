@@ -1,8 +1,9 @@
-package week1;
+package Nataliia.week1;
 
 import java.util.Scanner;
 
 public class OddOrEven {
+
 
     /*
     Numbers -- odd & even
@@ -13,6 +14,7 @@ public class OddOrEven {
      */
 
     // Solution below
+
         public static void main(String[] args) {
             System.out.println("Enter a number");
             Scanner scan = new Scanner (System.in);
@@ -25,5 +27,8 @@ public class OddOrEven {
 
         }
     }
+
+
+
 
 
