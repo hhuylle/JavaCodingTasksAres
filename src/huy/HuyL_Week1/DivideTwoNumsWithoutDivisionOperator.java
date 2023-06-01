@@ -1,4 +1,4 @@
-package HuyL_Week1;
+package huy.HuyL_Week1;
 
 public class DivideTwoNumsWithoutDivisionOperator {
 

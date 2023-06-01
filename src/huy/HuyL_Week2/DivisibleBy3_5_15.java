@@ -1,4 +1,4 @@
-package HuyL_Week2;
+package huy.HuyL_Week2;
 
 import java.util.Scanner;
 
