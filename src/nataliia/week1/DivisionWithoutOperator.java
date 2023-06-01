@@ -1,4 +1,4 @@
-package week1;
+package Nataliia.week1;
 
 import java.util.Scanner;
 
@@ -26,4 +26,7 @@ public class DivisionWithoutOperator {
     }
 
 }
+
+
+
 
