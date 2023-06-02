@@ -8,6 +8,7 @@ public class SwapNumbers {
 
         System.out.println((num2=(num1+num2)-num1)+" | "+ (num1=(num1+num2)-num2));
 
+
     }
 }
 /*

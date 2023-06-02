@@ -38,6 +38,7 @@ public class ConsecutiveNumbers {
                 System.exit(1);
             }
 
+
         }
 }
 /*

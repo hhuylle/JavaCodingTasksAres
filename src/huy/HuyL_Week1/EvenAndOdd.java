@@ -13,6 +13,7 @@ public class EvenAndOdd {
             }else {
                 System.out.println("Odd");
             }
+
         }
     }
 }
